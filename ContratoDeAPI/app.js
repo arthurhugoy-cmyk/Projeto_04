@@ -18,8 +18,9 @@ app.use(express.json());
 
 const conexao = mysql.createConnection({
   host: 'localhost',
+  port: 3302,
   user: 'root',
-  password: '123456',
+  password: 'aluno',
   database: 'aula_crud'
 });
 
